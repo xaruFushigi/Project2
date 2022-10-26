@@ -1,0 +1,63 @@
+html, body{
+    background: url(header.jpg) no-repeat center center fixed; 
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+
+/* Text details */
+h1 {  
+    color: rgb(167, 63, 196);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+h1:hover {
+    color: rgb(139, 52, 163);
+    border-color: rgb(139, 52, 163);
+    border-width: 0.1rem;
+}
+
+/* END OF Text details */
+
+/* BUFFER */
+
+.buffer {
+    height: 10rem;
+}
+
+/* END OF BUFFER */
+
+/* "FIND OUT MORE" button  */
+.red-button {
+    background-color: rgb(167, 63, 196);
+    border-color: rgb(167, 63, 196);
+    border-radius: 300px;
+    color: rgb(255, 254, 252);
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    padding: 6px 15px 6px 15px
+}
+
+.red-button:hover {
+    background-color: rgb(139, 52, 163);
+    border-color: rgb(139, 52, 163);
+    border-width: 0.1rem;
+}
+
+/* END OF "FIND OUT MORE" button */
+
+
+/* Horizontal Line above red-button */
+hr {
+    margin: 20px auto;
+    color: rgb(139, 52, 163);
+    border: 1px solid rgb(139, 52, 163);
+    max-width: 65px;
+    opacity: 1;  
+}
+
+/* END OF horizontal line */
